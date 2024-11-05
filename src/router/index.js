@@ -2,6 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router';
  import Bai1 from '../components/Lab1/Bai1.vue';
  import Bai2 from '../components/Lab1/Bai2.vue';
  import Bai3 from '../components/Lab1/Bai3.vue';
+ import Bai1L2 from '../components/Lab2/bai1.vue';
+ import Bai2L2 from '../components/Lab2/Bai2.vue';
+
+
 
 
 
@@ -11,6 +15,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
 
+    { path: '/Lab2/b2', component: Bai2L2 },
+    { path: '/Lab2/b1', component: Bai1L2 },
      { path: '/Lab1/b1', component: Bai1 },
      { path: '/Lab1/b2', component: Bai2 },
      { path: '/Lab1/b3', component: Bai3 },

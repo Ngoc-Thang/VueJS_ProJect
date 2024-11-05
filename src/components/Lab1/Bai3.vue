@@ -1,11 +1,11 @@
 <template>
   <div class="container">
-    <header class="row bg-warning p-2">Header</header>
+    <header class="row bg-warning p-2">Energy Pilates</header>
     <nav class="row bg-primary p-2">
       <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container">
           <a class="navbar-brand" href="Lab3Index.html">
-            <img src="../assets/logo.png" alt="" style="width: 150px" />
+            <img src="../assets/logo.png" alt="Logo" style="width: 150px" />
           </a>
           <button
             class="navbar-toggler"
@@ -99,7 +99,6 @@
             <span class="badge bg-primary rounded-pill">99</span>
           </li>
         </ul>
-        <!-- end Chuyên mục -->
       </aside>
       <article class="col-sm-8 bg-info p-5">
         <div class="container">
@@ -174,4 +173,3 @@ export default {
 };
 </script>
 
-<style scoped></style>
